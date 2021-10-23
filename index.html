@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Animation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div class="body">
+      <img src="bg1.png" alt="" />
+    </div>
+    <div class="mario">
+      <img id="mario" src="mariorun.png" alt="" />
+    </div>
+    <div class="marioenemy">
+      <img id="marioenemy" class="marioenemyani marioupdown" src="enemy.png" alt="" />
+    </div>
+    <div class="gameover" id="Gameover">
+      <h1>Welcome to JMario</h1>
+    </div>
+    <div class="score" id="scorecont">Your score is: 0</div>
+    <span class="about">
+      <h2>Amazing Javascript Game</h2>
+      <br />
+      <h3>Developer: Abhinav Saxena</h3>
+    </span>
+    <a href="index.html"><button id="start">Start Again</button></a>
+    <span class="info">
+      Press W to Jump
+      <br>
+      Press Arrow Keys to Move
+    </span>
+    <script src="index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
